@@ -131,12 +131,12 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(29, 188);
+            this.label3.Location = new System.Drawing.Point(44, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(226, 39);
+            this.label3.Size = new System.Drawing.Size(207, 39);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Don\'t close QZ tray while \r\nthis and Black window (CMD window).QZ tray \r\nIf QZ ta" +
-    "ry is not runnig this run automaticity\r\n";
+            this.label3.Text = "Don\'t close QZ tray while \r\nthis and Black window (CMD window)\r\nIf QZ tary is not" +
+    " runnig this run automaticity\r\n";
             // 
             // Form1
             // 
