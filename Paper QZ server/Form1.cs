@@ -34,7 +34,6 @@ namespace Paper_QZ_server
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            button3.Text = "Show Password";
             string processName = "javaw.exe"; // Replace with the name of the process you want to check
             Process[] processes = Process.GetProcessesByName(processName);
 
@@ -59,12 +58,10 @@ namespace Paper_QZ_server
             if(textBox1.Text == "****")
             {
                 textBox1.Text = ip;
-                button3.Text = "Show password";
             }
             else 
             {
                 textBox1.Text = "****";
-                button3.Text = "Hide password";
             }
         }
 
