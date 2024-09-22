@@ -133,10 +133,10 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(44, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 39);
+            this.label3.Size = new System.Drawing.Size(212, 39);
             this.label3.TabIndex = 2;
             this.label3.Text = "Don\'t close QZ tray while \r\nthis and Black window (CMD window)\r\nIf QZ tary is not" +
-    " runnig this run automaticity\r\n";
+    " runnig this run automatically\r\n";
             // 
             // Form1
             // 
