@@ -21,5 +21,5 @@ popd
 endlocal
 
 rem If we're in the Node.js directory, change to the user's home dir.
-if "%CD%\"=="%~dp0" cd /d "%HOMEDRIVE%%HOMEPATH%" && powershell Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Please enter this link in your paper qzz andoid app form your android phone for print and this link and after restart this server or after 7 days Revisit link and Re-enter this password', 'How to and Important info', [System.Windows.MessageBoxButton]::OK, [System.Windows.MessageBoxImage]::Information) 
+if "%CD%\"=="%~dp0" cd /d "%HOMEDRIVE%%HOMEPATH%" && powershell Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Please enter this link in your paper qzz andoid app form your android phone for print and this link and after restart this server or after 7 days Re-enter ths link in paper qz andorid without "https://"', 'How to and Important info', [System.Windows.MessageBoxButton]::OK, [System.Windows.MessageBoxImage]::Information) 
 lt --port 8181 
