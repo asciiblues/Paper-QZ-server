@@ -120,7 +120,7 @@
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Enter this IP in your android phone app 
 And Click on start button
-Note : - This ip is work with you are online and instaled Qz tray
+Note : - This ip is work with you are online and QZ tray is installed
 And this work Word wide and this port forwarding using localtunel, npm and node.js</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

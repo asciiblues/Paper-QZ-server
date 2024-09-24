@@ -12,22 +12,6 @@ namespace Paper_QZ_server
         {
             InitializeComponent();
         }
-        static string GetPublicIP()
-        {
-
-            string url = "http://checkip.dyndns.org/";
-            WebRequest request = WebRequest.Create(url);
-            using (WebResponse response = request.GetResponse())
-            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
-            {
-                string responseText = reader.ReadToEnd();
-                // Extract the IP address from the response
-                int first = responseText.IndexOf("Address: ") + 9;
-                int last = responseText.LastIndexOf("</body>");
-                return responseText.Substring(first, last - first);
-            }
-
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             Process.Start(AppDomain.CurrentDomain.BaseDirectory + "/server.bat");
@@ -47,25 +31,13 @@ namespace Paper_QZ_server
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Clipboard.SetText(textBox1.Text);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string ip =  GetPublicIP();
-            if(textBox1.Text == "****")
-            {
-                textBox1.Text = ip;
-            }
-            else 
-            {
-                textBox1.Text = "****";
-            }
-        }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
